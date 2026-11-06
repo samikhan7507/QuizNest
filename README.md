@@ -17,7 +17,7 @@ Requirements: JDK 17+ and Maven.
 
     mvn spring-boot:run
 
-Open http://localhost:8080
+[Open http://localhost:8080](https://quiznest-88yt.onrender.com/)
 
 ## Open it on your phone
 1. Connect the phone and laptop to the same Wi-Fi.
