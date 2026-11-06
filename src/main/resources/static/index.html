@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>QuizNest: practice quizzes for students</title>
+  <meta name="description" content="Practice quizzes on Java, DSA, DBMS, Operating Systems and Data Science. Works on phone and laptop.">
+  <meta name="theme-color" content="#F6F7FB">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-in">
+      <a class="brand" href="#home" aria-label="QuizNest home">
+        <img src="icon.svg" alt="" width="32" height="32">
+        <span>QuizNest</span>
+      </a>
+      <nav class="top-nav" aria-label="Main">
+        <a href="#home" data-nav="home">Quiz</a>
+        <a href="#board" data-nav="board">Leaderboard</a>
+        <a href="#add" data-nav="add">Add question</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <nav class="bottom-nav" aria-label="Main">
+    <a href="#home" data-nav="home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="#board" data-nav="board">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v5a5 5 0 0 1-10 0V4zM7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3M12 14v4M8 20h8"/></svg>
+      <span>Leaderboard</span>
+    </a>
+    <a href="#add" data-nav="add">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 8v8M8 12h8"/></svg>
+      <span>Add question</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
